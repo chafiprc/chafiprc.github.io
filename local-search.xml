@@ -4,6 +4,33 @@
   
   
   <entry>
+    <title>正则表达式</title>
+    <link href="/2023/06/28/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F/"/>
+    <url>/2023/06/28/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F/</url>
+    
+    <content type="html"><![CDATA[<h3 id="入门">入门</h3><ul><li>两个网站</li><li><a href="https://regexr-cn.com">在线测试工具</a></li><li><a href="https://codejiaonang.com">正则练习</a></li></ul><h3 id="限定符">限定符</h3><ul><li><strong>?</strong><br><code>/used?</code>代表 d 可以出现 1 次或者 0 次</li><li><strong>*</strong><br><code>/ab*c</code>代表 b 可以出现 0 次或者很多次，匹配时 a,c 中间不能有其它字符</li><li><strong>+</strong><br><code>/ab+c</code>代表 b 可以出现 1 次或者很多次</li><li><strong>{}</strong><br><code>/ab&#123;6&#125;c</code>代表 b 出现 6 次<br><code>/ab&#123;2,6&#125;c</code>代表 b 出现 2 到 6 次<br><code>/ab&#123;2,&#125;c</code>代表 b 出现 2 次以上<br>可以利用 <strong>()</strong> 把多个字符扩在一起，看作一个整体</li></ul><h3 id="或">或</h3><ul><li><strong>|</strong><br><code>/a (cat|dog)</code>cat 与 dog 二选一</li></ul><h3 id="字符类">字符类</h3><ul><li><strong>[]</strong><br><code>/[abc]+</code>代表匹配的字符只能取自 abc<br><code>/[a-z]+</code>代表匹配所有的小写字母<br><code>/[a-zA-Z]+</code>代表匹配所有的字母<br><code>/[a-zA-Z0-9]+</code>代表匹配所有的字母和数字</li><li><strong>^</strong> 脱字符<br><code>/[^0-9]+</code>代表匹配所有的非数字字符</li></ul><h3 id="元字符">元字符</h3><ul><li>\d 数字字符 等价于 [0-9]</li><li>\w 单词字符 代表所有的英文字符，数字加上下划线</li><li>\s 空白符 代表 tab 和换行符</li><li>\D 非数字字符</li><li>\W 非单词字符</li><li>\S 非空白字符</li><li><strong>.</strong> 代表任意字符，不包括换行符</li><li>^a 只会代表行首的 a，a$只会代表行尾的 a</li><li>\b 代表单词边界</li><li>若需表达特定的字符，比如 <strong>.</strong> ，可以在前面加上转义符号\</li></ul><h3 id="贪婪匹配与懒惰匹配">贪婪匹配与懒惰匹配</h3><ul><li>贪婪匹配<img src="/2023/06/28/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F1.png" class="" title="音频图像"></li><li>懒惰匹配<img src="/2023/06/28/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F2.png" class="" title="音频图像">在限定符后加入一个？，就可以使匹配内的内容尽可能少</li></ul>]]></content>
+    
+    
+    <categories>
+      
+      <category>算法学习</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>算法学习</tag>
+      
+      <tag>正则表达式</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>电路理论mooc学习参考答案</title>
     <link href="/2023/06/07/%E7%94%B5%E8%B7%AF%E7%90%86%E8%AE%BAmooc%E5%AD%A6%E4%B9%A0%E5%8F%82%E8%80%83%E7%AD%94%E6%A1%88/"/>
     <url>/2023/06/07/%E7%94%B5%E8%B7%AF%E7%90%86%E8%AE%BAmooc%E5%AD%A6%E4%B9%A0%E5%8F%82%E8%80%83%E7%AD%94%E6%A1%88/</url>
