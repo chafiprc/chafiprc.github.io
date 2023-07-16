@@ -16,27 +16,32 @@
   <meta name="author" content="Rufish">
   <meta name="keywords" content="">
   
-    <meta name="description" content="正则表达式快速入门">
+    <meta name="description" content="本文简要介绍了 Hexo+Github 方案搭建个人博客的教程">
 <meta property="og:type" content="article">
-<meta property="og:title" content="正则表达式">
-<meta property="og:url" content="https://rufish.top/2023/06/28/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F/index.html">
+<meta property="og:title" content="Hexo+Github搭建个人博客">
+<meta property="og:url" content="https://rufish.top/2023/07/16/Hexo-Github%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/index.html">
 <meta property="og:site_name" content="Rufish">
-<meta property="og:description" content="正则表达式快速入门">
+<meta property="og:description" content="本文简要介绍了 Hexo+Github 方案搭建个人博客的教程">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="https://rufish.top/img/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8Fimg.jpeg">
-<meta property="article:published_time" content="2023-06-28T14:54:23.000Z">
-<meta property="article:modified_time" content="2023-06-29T12:21:39.431Z">
+<meta property="og:image" content="https://rufish.top/2023/07/16/Hexo-Github%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/Hexo-Github%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A21.png">
+<meta property="og:image" content="https://rufish.top/2023/07/16/Hexo-Github%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/Hexo-Github%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A22.png">
+<meta property="og:image" content="https://rufish.top/2023/07/16/Hexo-Github%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/Hexo-Github%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A23.png">
+<meta property="og:image" content="https://rufish.top/2023/07/16/Hexo-Github%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/Hexo-Github%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A25.png">
+<meta property="og:image" content="https://rufish.top/2023/07/16/Hexo-Github%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/Hexo-Github%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A26.png">
+<meta property="article:published_time" content="2023-07-16T05:44:16.000Z">
+<meta property="article:modified_time" content="2023-07-16T05:56:27.259Z">
 <meta property="article:author" content="Rufish">
-<meta property="article:tag" content="算法学习">
-<meta property="article:tag" content="正则表达式">
+<meta property="article:tag" content="个人博客">
+<meta property="article:tag" content="Hexo">
+<meta property="article:tag" content="Github">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="https://rufish.top/img/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8Fimg.jpeg">
+<meta name="twitter:image" content="https://rufish.top/2023/07/16/Hexo-Github%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/Hexo-Github%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A21.png">
   
   
     <meta name="referrer" content="no-referrer-when-downgrade">
   
   
-  <title>正则表达式 - Rufish</title>
+  <title>Hexo+Github搭建个人博客 - Rufish</title>
 
   <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
 
@@ -47,8 +52,6 @@
   <link  rel="stylesheet" href="https://lib.baomitu.com/hint.css/2.7.0/hint.min.css" />
 
   <link  rel="stylesheet" href="https://lib.baomitu.com/fancybox/3.5.7/jquery.fancybox.min.css" />
-
-  <link  rel="stylesheet" href="https://lib.baomitu.com/KaTeX/0.16.2/katex.min.css" />
 
 
 
@@ -232,7 +235,7 @@
       <div class="banner-text text-center fade-in-up">
         <div class="h2">
           
-            <span id="subtitle" data-typed-text="正则表达式"></span>
+            <span id="subtitle" data-typed-text="Hexo+Github搭建个人博客"></span>
           
         </div>
 
@@ -248,8 +251,8 @@
     
       <span class="post-meta">
         <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-        <time datetime="2023-06-28 22:54" pubdate>
-          2023年6月28日 晚上
+        <time datetime="2023-07-16 13:44" pubdate>
+          2023年7月16日 下午
         </time>
       </span>
     
@@ -260,7 +263,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          519 字
+          1.3k 字
         
       </span>
     
@@ -271,7 +274,7 @@
         
         
         
-          5 分钟
+          11 分钟
         
       </span>
     
@@ -317,12 +320,12 @@
         <div id="board">
           <article class="post-content mx-auto">
             <!-- SEO header -->
-            <h1 style="display: none">正则表达式</h1>
+            <h1 style="display: none">Hexo+Github搭建个人博客</h1>
             
               <p class="note note-info">
                 
                   
-                    本文最后更新于：2023年6月29日 晚上
+                    本文最后更新于：2023年7月16日 下午
                   
                 
               </p>
@@ -330,61 +333,85 @@
             
               <div class="markdown-body">
                 
-                <h3 id="入门">入门</h3>
+                <h3 id="Hexo">Hexo</h3>
 <ul>
-<li>两个网站</li>
-<li><a target="_blank" rel="noopener" href="https://regexr-cn.com">在线测试工具</a></li>
-<li><a target="_blank" rel="noopener" href="https://codejiaonang.com">正则练习</a></li>
+<li>Hexo 是一个快速,简洁且高效的博客框架。Hexo 使用 markdown (或其他渲染引擎)解析文章,在几秒内,即可利用靓丽的主题生成静态网页，并托管在 github 上</li>
 </ul>
-<h3 id="限定符">限定符</h3>
+<h3 id="Github">Github</h3>
 <ul>
-<li><strong>?</strong><br>
-<code>/used?</code>代表 d 可以出现 1 次或者 0 次</li>
-<li><strong>*</strong><br>
-<code>/ab*c</code>代表 b 可以出现 0 次或者很多次，匹配时 a,c 中间不能有其它字符</li>
-<li><strong>+</strong><br>
-<code>/ab+c</code>代表 b 可以出现 1 次或者很多次</li>
-<li><strong>{}</strong><br>
-<code>/ab&#123;6&#125;c</code>代表 b 出现 6 次<br>
-<code>/ab&#123;2,6&#125;c</code>代表 b 出现 2 到 6 次<br>
-<code>/ab&#123;2,&#125;c</code>代表 b 出现 2 次以上<br>
-可以利用 <strong>()</strong> 把多个字符扩在一起，看作一个整体</li>
+<li>是一个代码托管网站，提供<a target="_blank" rel="noopener" href="https://pages.github.com">个人页面</a>的支持</li>
 </ul>
-<h3 id="或">或</h3>
+<h3 id="一-下载相关软件">一.下载相关软件</h3>
 <ul>
-<li><strong>|</strong><br>
-<code>/a (cat|dog)</code>cat 与 dog 二选一</li>
+<li>Hexo 基于 js，需要 js 运行环境，此处安装<a target="_blank" rel="noopener" href="https://nodejs.org">Nodejs</a>，一路默认安装即可</li>
+<li>由于需要托管到 github，需要下载安装<a target="_blank" rel="noopener" href="https://git-scm.com/">git</a>，一路默认安装即可</li>
 </ul>
-<h3 id="字符类">字符类</h3>
-<ul>
-<li><strong>[]</strong><br>
-<code>/[abc]+</code>代表匹配的字符只能取自 abc<br>
-<code>/[a-z]+</code>代表匹配所有的小写字母<br>
-<code>/[a-zA-Z]+</code>代表匹配所有的字母<br>
-<code>/[a-zA-Z0-9]+</code>代表匹配所有的字母和数字</li>
-<li><strong>^</strong> 脱字符<br>
-<code>/[^0-9]+</code>代表匹配所有的非数字字符</li>
-</ul>
-<h3 id="元字符">元字符</h3>
-<ul>
-<li>\d 数字字符 等价于 [0-9]</li>
-<li>\w 单词字符 代表所有的英文字符，数字加上下划线</li>
-<li>\s 空白符 代表 tab 和换行符</li>
-<li>\D 非数字字符</li>
-<li>\W 非单词字符</li>
-<li>\S 非空白字符</li>
-<li><strong>.</strong> 代表任意字符，不包括换行符</li>
-<li>^a 只会代表行首的 a，a$只会代表行尾的 a</li>
-<li>\b 代表单词边界</li>
-<li>若需表达特定的字符，比如 <strong>.</strong> ，可以在前面加上转义符号\</li>
-</ul>
-<h3 id="贪婪匹配与懒惰匹配">贪婪匹配与懒惰匹配</h3>
-<ul>
-<li>贪婪匹配<img src="/2023/06/28/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F1.png" srcset="/img/loading.gif" lazyload class="" title="音频图像">
+<h3 id="二-配置-git">二.配置 git</h3>
+<ol>
+<li>
+<p>打开 git bash</p>
 </li>
-<li>懒惰匹配<img src="/2023/06/28/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F2.png" srcset="/img/loading.gif" lazyload class="" title="音频图像">
-在限定符后加入一个？，就可以使匹配内的内容尽可能少</li>
+<li>
+<p>修改用户名以及个人邮箱</p>
+<p><code>git config --global user.name &quot;chafi&quot; #名称</code><br>
+<code>git config --global user.email &quot;1538153895@qq.com&quot; #邮箱</code></p>
+</li>
+<li>
+<p>生成 ssh 密匙</p>
+</li>
+</ol>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs bash"><span class="hljs-comment"># 进入本地.ssh目录</span><br><span class="hljs-comment"># 打开bash</span><br>ssh-keygen -t rsa <span class="hljs-comment"># rsa是加密方法</span><br></code></pre></td></tr></table></figure>
+<p>（可以在当前目录操作即可）</p>
+<ol start="4">
+<li>复制.ssh 文件下的 id_rsa.pub 内容</li>
+<li>打开 github，在 setting 中添加 ssh 密钥<img src="/2023/07/16/Hexo-Github%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/Hexo-Github%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A21.png" srcset="/img/loading.gif" lazyload class="" title="音频图像">
+<img src="/2023/07/16/Hexo-Github%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/Hexo-Github%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A22.png" srcset="/img/loading.gif" lazyload class="" title="音频图像">
+</li>
+<li>打开 git bash，输入<code>ssh -T git@github.com</code>，第一次输入可能需要确认连接，输入 yes 即可，若出现以下文字，则 ssh 配置成功<img src="/2023/07/16/Hexo-Github%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/Hexo-Github%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A23.png" srcset="/img/loading.gif" lazyload class="" title="音频图像">
+</li>
+</ol>
+<h3 id="三-添加-Github-存储库">三.添加 Github 存储库</h3>
+<ul>
+<li>打开 github 页面<img src="/2023/07/16/Hexo-Github%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/Hexo-Github%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A25.png" srcset="/img/loading.gif" lazyload class="" title="音频图像">
+</li>
+<li>新建库</li>
+<li>接着在库名中写<strong><a target="_blank" rel="noopener" href="http://github.io">github.io</a></strong>（不可修改），创建库<img src="/2023/07/16/Hexo-Github%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/Hexo-Github%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A26.png" srcset="/img/loading.gif" lazyload class="" title="音频图像">
+</li>
 </ul>
+<h3 id="四-下载-Hexo，并初始化">四.下载 Hexo，并初始化</h3>
+<ol>
+<li>打开 cmd</li>
+</ol>
+<ul>
+<li>(按需修改 npm 的安装位置和缓存位置)<br>
+<code>npm config set prefix &quot;node_global路径&quot;</code><br>
+<code>npm config set cache &quot;node_cach路径&quot;</code><br>
+设置完之后，记得把 node_global 路径加入 path 环境变量<br>
+若提示不存在 npm，则需要把 npm 路径加入环境变量</li>
+</ul>
+<ol start="2">
+<li>安装 Hexo<br>
+<code>npm install -g hexo-cli</code></li>
+<li>新建一个用于储存博客的文件夹，比如 D:\Blog</li>
+<li>接着进入文件夹，输入<code>hexo init</code></li>
+<li><code>hexo s/server</code>来开启本地服务，来验证 hexo 是否正常运行</li>
+</ol>
+<h3 id="五-关联-Github-和-Hexo">五.关联 Github 和 Hexo</h3>
+<p>这一步，我们就可以将 hexo 和 GitHub 关联起来，也就是将 hexo 生成的文章部署到 GitHub 上，打开站点配置文件_config.yml，翻到最后，修改为</p>
+<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><code class="hljs yaml"><span class="hljs-attr">deploy:</span><br>  <span class="hljs-attr">type:</span> <span class="hljs-string">git</span><br>  <span class="hljs-attr">repo:</span> <span class="hljs-string">https://github.com/YourgithubName/YourgithubName.github.io.git</span><br>  <span class="hljs-attr">branch:</span> <span class="hljs-string">master</span><br></code></pre></td></tr></table></figure>
+<p>YourgithubName 就是你的 GitHub 账户</p>
+<p>这个时候需要先安装 deploy-git ，也就是部署的命令,这样你才能用命令部署到 GitHub。</p>
+<p><code>npm install hexo-deployer-git --save</code></p>
+<p>然后</p>
+<p><code>hexo clean</code></p>
+<p><code>hexo generate</code></p>
+<p><code>hexo deploy</code></p>
+<p><code>hexo start</code></p>
+<p>其中</p>
+<p>hexo clean 清除了你之前生成的东西，也可以不加。</p>
+<p>hexo generate 顾名思义，生成静态文章，可以用 hexo g 缩写</p>
+<p>hexo deploy 部署文章，可以用 hexo d 缩写</p>
+<p>hexo start 预览页面，可以用 hexo s 缩写</p>
 
                 
               </div>
@@ -403,7 +430,7 @@
     
       <span class="category-chain">
         
-  <a href="/categories/%E7%AE%97%E6%B3%95%E5%AD%A6%E4%B9%A0/" class="category-chain-item">算法学习</a>
+  <a href="/categories/%E5%89%8D%E7%AB%AF%E5%AD%A6%E4%B9%A0/" class="category-chain-item">前端学习</a>
   
   
 
@@ -418,9 +445,11 @@
     <div class="post-meta">
       <i class="iconfont icon-tags"></i>
       
-        <a href="/tags/%E7%AE%97%E6%B3%95%E5%AD%A6%E4%B9%A0/">#算法学习</a>
+        <a href="/tags/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/">#个人博客</a>
       
-        <a href="/tags/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F/">#正则表达式</a>
+        <a href="/tags/Hexo/">#Hexo</a>
+      
+        <a href="/tags/Github/">#Github</a>
       
     </div>
   
@@ -432,8 +461,8 @@
 
   <div class="license-box my-3">
     <div class="license-title">
-      <div>正则表达式</div>
-      <div>https://rufish.top/2023/06/28/正则表达式/</div>
+      <div>Hexo+Github搭建个人博客</div>
+      <div>https://rufish.top/2023/07/16/Hexo-Github搭建个人博客/</div>
     </div>
     <div class="license-meta">
       
@@ -445,7 +474,7 @@
       
         <div class="license-meta-item license-meta-date">
           <div>发布于</div>
-          <div>2023年6月28日</div>
+          <div>2023年7月16日</div>
         </div>
       
       
@@ -477,18 +506,12 @@
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/2023/07/16/Hexo-Github%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/" title="Hexo+Github搭建个人博客">
-                        <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">Hexo+Github搭建个人博客</span>
-                        <span class="visible-mobile">上一篇</span>
-                      </a>
-                    
                   </article>
                   <article class="post-next col-6">
                     
                     
-                      <a href="/2023/06/07/%E7%94%B5%E8%B7%AF%E7%90%86%E8%AE%BAmooc%E5%AD%A6%E4%B9%A0%E5%8F%82%E8%80%83%E7%AD%94%E6%A1%88/" title="电路理论mooc学习参考答案">
-                        <span class="hidden-mobile">电路理论mooc学习参考答案</span>
+                      <a href="/2023/06/28/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F/" title="正则表达式">
+                        <span class="hidden-mobile">正则表达式</span>
                         <span class="visible-mobile">下一篇</span>
                         <i class="iconfont icon-arrowright"></i>
                       </a>
@@ -577,11 +600,6 @@
 
 
   
-
-
-  
-  
-
 
 
 
