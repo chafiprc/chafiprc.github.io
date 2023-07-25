@@ -2,8 +2,8 @@
   class _customSlogan {
     constructor(
       _url = "https://v1.hitokoto.cn/?c=d&c=i&c=j&max_length=20",
-      _speed = 500,
-      _removeSpeed = 100
+      _speed = 150,
+      _removeSpeed = 60
     ) {
       let p = {
         url: _url,
@@ -34,7 +34,7 @@
   }
   let customSlogan = {
     slogan: new _customSlogan(),
-    sloganStatus: 1,
+    sloganStatus: 0,
     sloganID: document.getElementById("subtitle"),
     sleep: function (ms) {
       return new Promise((resolve) => setTimeout(resolve, ms));
@@ -85,11 +85,11 @@
         }
       }
       //alert(this.sloganStatus);
-      setTimeout(this.changeSlogan.bind(customSlogan), 1000);
+      setTimeout(customSlogan.changeSlogan.bind(customSlogan), 1000);
     },
     initializeAndStartSlogan: function () {
-      this.slogan.getJSON().then(function () {
-        this.changeSlogan().bind(customSlogan);
+      customSlogan.slogan.getJSON().then(function () {
+        customSlogan.changeSlogan();
       });
     },
   };
