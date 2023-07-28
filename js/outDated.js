@@ -16,9 +16,9 @@
     var days = parseInt(interval / 86400000);
     posts[0].innerHTML =
       '<div class="note note-warning" style="font-size:0.9rem"><p>' +
-      '<div class="h6">文章时效性提示</div><p>这是一篇发布于 ' +
+      '<div class="h6">文章时效性提示</div><p>这是一篇发布于 <jumpNum duration="1500">' +
       days +
-      " 天前的文章，部分信息可能已发生改变，请注意甄别。" +
+      "</jumpNum> 天前的文章，部分信息可能已发生改变，请注意甄别。" +
       "</p></p></div>" +
       posts[0].innerHTML;
   }
